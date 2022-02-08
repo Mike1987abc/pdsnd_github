@@ -7,7 +7,7 @@
 Udacity Programming	
 
 ### Description
-website
+Website for Udacity Nanodegree Data Analyst
 
 ### Files used
 bikeshare.py
