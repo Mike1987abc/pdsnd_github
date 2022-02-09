@@ -19,10 +19,10 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = input('What city your are interested in?\nType either:\nc for chicago, nyc for New York City or w for washington\n')
+    city = input('What city your are interested in?\nType either:\nc for Chicago, nyc for New York City or w for Washington\n')
     city = city.lower()
     while city not in ['c', 'nyc', 'w']:
-        city = input('Incorrect input!\n Type either:\nc for chicago, nyc for New York City or w for washington\n')
+        city = input('Incorrect input!\n Type either:\nc for Chicago, nyc for New York City or w for Washington\n')
         city = city.lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -168,7 +168,7 @@ def user_stats(df):
 
 def display_raw_data(df):
     """ Provides the option to display the first 5 rows of the filtered dataframe.
-    With a short input (yes) the user can display 5 more rows"""
+    With a short input y (yes) the user can display 5 more rows as long as all data is shown or the input is n (no)"""
     i = 0
     raw = input("Do you want to have a look at the first 5 rows of the dataframe?\nType yes oder no: ").lower() 
         
