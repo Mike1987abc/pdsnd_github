@@ -168,7 +168,7 @@ def user_stats(df):
 
 def display_raw_data(df):
     """ Provides the option to display the first 5 rows of the filtered dataframe.
-    With a short input (yes) the user can display 5 more rows"""
+    With a short input y (yes) the user can display 5 more rows as long as all data is shown or the input is n (no)"""
     i = 0
     raw = input("Do you want to have a look at the first 5 rows of the dataframe?\nType yes oder no: ").lower() 
         
